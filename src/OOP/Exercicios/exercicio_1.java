@@ -15,5 +15,6 @@ public class exercicio_1 {
 		retagulo.largura = scanner.nextDouble();
 		
 		System.out.println(retagulo);
+		scanner.close();
 	}
 }
