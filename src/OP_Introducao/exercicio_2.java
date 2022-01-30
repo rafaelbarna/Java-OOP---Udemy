@@ -1,4 +1,4 @@
-package OOP.Exercicios;
+package OP_Introducao;
 
 import java.util.Scanner;
 

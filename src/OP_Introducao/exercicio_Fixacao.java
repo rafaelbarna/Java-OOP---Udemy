@@ -1,4 +1,4 @@
-package OOP.Exercicios;
+package OP_Introducao;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -19,5 +19,7 @@ public class exercicio_Fixacao {
 		double valorReal = exercicio_Fixacao_Calculadora.valorReal(cotacaoDolar, valorDolar);
 		System.out.println("IOF: + 6%");
 		System.out.printf("R$: %.2f%n", valorReal);
+		
+		scanner.close();
 	}
 }

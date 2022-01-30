@@ -1,4 +1,4 @@
-package OOP.Exercicios;
+package OP_Introducao;
 
 public class exercicio_2_Funcionario {
 	
