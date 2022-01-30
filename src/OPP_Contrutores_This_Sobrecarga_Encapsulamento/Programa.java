@@ -8,6 +8,9 @@ public class Programa {
 		
 		Scanner scanner = new Scanner(System.in);
 		
+		// Construtor Padrão
+		// Produto produto = new Produto();
+		
 		// Leitura de dados do Produto
 		System.out.println("Insira dados do Produto:");
 		System.out.print("Nome: ");
@@ -19,6 +22,9 @@ public class Programa {
 		
 		// Construtor com Parâmetros
 		Produto produto = new Produto(nome, preco, quantidade);
+		
+		// Construtor com Sobrecarga
+		// Produto produto = new Produto(nome, preco);
 		
 		// Retorna Produto cadastrado ~ Como String já formatada utilizando o método toString "modificado"
 		System.out.println(produto);

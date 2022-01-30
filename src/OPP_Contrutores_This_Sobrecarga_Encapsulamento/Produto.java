@@ -6,6 +6,10 @@ public class Produto {
 	public String nome;
 	public double preco;
 	public int quantidade;
+	
+	// Construtor Padrão
+	public Produto() {
+	}
 
 	// Construtor ~ Geralmente colocado depois dos Atributos e antes dos Métodos
 	// ~ Executa no momento da Instânciação do Objeto
@@ -17,6 +21,12 @@ public class Produto {
 		this.nome = nome;
 		this.preco = preco;
 		this.quantidade = quantidade;
+	}
+	
+	// Sobrecarga de Construtor
+	public Produto(String nome, double preco) {
+		this.nome = nome;
+		this.preco = preco;
 	}
 	
 	// Métodos
