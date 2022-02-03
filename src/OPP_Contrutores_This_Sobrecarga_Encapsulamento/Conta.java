@@ -6,14 +6,6 @@ public class Conta {
 	private String nomeCliente;
 	private double deposito;
 	private double saldo;
-	
-	public double getSaldo() {
-		return saldo;
-	}
-
-	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
 
 	public Conta(int numeroConta, String nomeCliente) {
 		this.numeroConta = numeroConta;
@@ -31,21 +23,20 @@ public class Conta {
 	}
 	
 	public void saque(double saque) {
-		saldo -= saque;
+		saldo -= saque + 5.00;
 	}
 	
-	// Override
 	public String toString() {
-		return "\nNumero da Conta: " + numeroConta + "\nNome Cliente: " + nomeCliente + "Saldo: " + saldo;
+		return "Conta: " + numeroConta + "\nNome: " + nomeCliente + "\nSaldo: " + String.format("%.2f", saldo);
 	}
 
 	// Getters and Setters
+	public double getSaldo() {
+		return saldo;
+	}
+	
 	public int getNumeroConta() {
 		return numeroConta;
-	}
-
-	public void setNumeroConta(int numeroConta) {
-		this.numeroConta = numeroConta;
 	}
 
 	public String getNomeCliente() {
