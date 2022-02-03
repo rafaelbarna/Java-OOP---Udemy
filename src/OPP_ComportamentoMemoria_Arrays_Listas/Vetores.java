@@ -3,8 +3,6 @@ package OPP_ComportamentoMemoria_Arrays_Listas;
 import java.util.Locale;
 import java.util.Scanner;
 
-import OP_Introducao.Produto;
-
 public class Vetores {
 
 	public static void main(String[] args) {
@@ -12,12 +10,12 @@ public class Vetores {
 		Scanner scanner = new Scanner(System.in);
 		
 		int n = scanner.nextInt();
-		Produto[] vect = new Produto[n];
+		Vetor[] vect = new Vetor[n];
 		
 		for (int i = 0; i < vect.length; i++) {
 			String nome = scanner.next();
 			double valor = scanner.nextDouble();
-			vect[i] = new Produto(nome, valor);
+			vect[i] = new Vetor(nome, valor);
 		}
 		
 		double soma = 0.0;
@@ -27,6 +25,8 @@ public class Vetores {
 		
 		double media = soma / vect.length;
 		
-		System.out.printf("Preço médio: " + %.2f%n, media);
+		System.out.printf("Preço médio: %.2f%n", media);
+		
+		scanner.close();
 	}
 }
