@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Heranca Polimorfismo"/>
 	<classpathentry kind="src" path="Classes e Métodos Abstratos"/>
+	<classpathentry kind="src" path="Heranca e Polimorfismo - Exercicio"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

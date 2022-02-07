@@ -28,6 +28,4 @@ public class Circulo extends Forma {
 	public void setRaio(double raio) {
 		this.raio = raio;
 	}
-	
-	
 }
